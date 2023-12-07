@@ -255,9 +255,8 @@ div#cabecalho{
 .Im5{grid-area: Im5;}
 
 .clientes img{
-  width: 50%;
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 90%;
+
   border-radius: 15px;
 }
 
