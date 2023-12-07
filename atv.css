@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+*,*::after,*::before{box-sizing: border-box; outline: none;}
+    
+#descricao {
+    background-image: url(imagens/testando.PNG);
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding-left: 12%;
+   
+
+    border-bottom: rgb(0, 0, 0) 1px solid;
+
+}
+
+#headerflex h1{
+    color: rgb(252, 190, 12);
+}
+#headerflex p{
+    color: rgb(255, 226, 147);
+}
+
+
+
+#descricao h1{
+    margin: 0;
+}
+#linkflex{
+  
+    font-size: 10px;
+    padding-right: 17vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+#linkflex a{
+    color: rgb(252, 190, 12);
+   background-color: black;
+    padding: 3%;
+    border: 2px black solid;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+
+
+#linkflex a:hover,
+#linflex a:focus,
+#linkflex a:target a{
+    color: black;
+    background-color:rgb(252, 190, 12);
+    border-color: rgb(252, 190, 12);
+
+}
+
+
+
+
+#descricao img{
+    width: 100%;
+    height:100% ;
+   
+
+}
+
+
+
+#buscador{
+    background-color:rgb(35, 35, 9);
+    text-indent: 20px;
+   border-radius: 10px;
+   border:none;
+   outline: 0.5px solid rgb(230, 142, 26);
+   width: 8vw;
+   height: 4vh;
+   background-image: url(imagens/lupa.png);
+   color: aliceblue;
+   background-size: 20px;
+   background-repeat: no-repeat;
+   background-position: left center;
+    
+}
+
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+div#cabecalho{
+    padding-left: 10px;
+    padding-right:10px;
+    display: flex;
+    color: rgb(252, 190, 12);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232323;   
+    border-bottom: rgb(35, 35, 35) 1px solid;
+
+    
+}
+#logo a{
+    text-decoration: none;
+    color: rgb(252, 190, 12);
+}
+
+
+
+
+
+#navegation-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+    
+}
+
+#navegation-menu li{
+    list-style-type: none;
+   
+
+}
+
+#navegation-menu li a{
+    color: rgb(252, 190, 12);
+   
+
+}
+
+#navegation-menu a{
+    display: block;
+    text-decoration: none;
+    
+}
+
+
+/* segunda parte */
+
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+ 
+
+
+}
+
+#beneficios-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 190, 12);
+ 
+}
+
+#beneficios-figures{
+    display: flex;
+    background-image: url(imagens/planodefundo.PNG);
+    background-repeat: no-repeat;
+    background-color: #2323233f;
+
+    background-position: center;
+
+   
+
+}
+
+
+
+#beneficios-figures section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#beneficios-figures p{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    color: rgb(255, 226, 147);
+   
+    
+}
+
+
+#beneficios-figures img{
+    width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 15px;
+
+}
+
+/* parceiros */
+
+.clientes{
+    background-image: url(imagens/planodefundo2.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    color: rgb(252, 190, 12);
+    display: grid;
+    grid-template-areas: "N N N N N"
+                         "p p p p p"
+                        "Im1 Im2 Im3 Im4 Im5";
+    grid-template-rows: 10vh 10vh 30vh;
+ 
+
+}
+.header{
+    display: grid;
+    grid-area: N;
+    justify-content: center;
+    color: white;
+}
+
+.paragraph{
+    display: grid;
+    grid-area: p;
+    justify-content: center;
+}
+
+.Im1, .Im2, .Im3, .Im4, .Im5{
+    display: grid;
+    justify-content: center;
+    
+    
+
+} 
+
+.Im1{grid-area: Im1;}
+.Im2{grid-area: Im2;}
+.Im3{grid-area: Im3;}
+.Im4{grid-area: Im4;}
+.Im5{grid-area: Im5;}
+
+.clientes img{
+  width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 15px;
+}
+
+/* formulario */
+
+
+
+textarea{background-color:  white;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+    outline: 1px rgb(182, 182, 182) solid;
+}
+#nome-email input{
+    background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: 1.5px solid rgb(182, 182, 182);
+}
+
+
+#formulario{
+    background-color: #fcfcfc;
+    color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+#gg{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nome-email{
+    display: flex;
+    
+}
+#nome-email fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+#t{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+#dd{
+    width: 15%;
+    border: none;
+    height: 30px;
+    color: wheat;
+    background-color: #232323;
+    
+}
+
+/* rodapé */
+
+#footer{
+    color: rgb(252, 190, 12);
+    background-color: #232323;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    display: flex;
+    
+}
+#footericons dl{
+    
+    display: flex;
+    margin: 0;
+}
+
+#footericons dd{
+    
+
+    margin: 8px;
+}
+#footericons dl img{
+    margin: 0;
+    height: 20px;
+}
